@@ -1,0 +1,163 @@
+CachingBackend: Loading instances from cache
+CachingBackend: Loading <ControlTemps1>
+theme_name='png'
+is_sticky='False'
+keep_above='True'
+is_dragged='False'
+keep_below='False'
+y='44'
+x='731'
+skip_taskbar='True'
+Creating new entry for ControlTempsScreenlet in /tmp/screenlets/screenlets.telecentreuser.running
+Loading instances in: /home/telecentreuser/.config/Screenlets/ControlTemps/default/
+Loaded config from: ControlTemps1.ini
+__options__ has changed to []
+__options__ is going to change from []
+__options_groups__ has changed to {}
+__options_groups__ is going to change from {}
+__options_groups_ordered__ has changed to []
+__options_groups_ordered__ is going to change from []
+id has changed to ControlTemps1
+id is going to change from ControlTemps1
+session has changed to <screenlets.session.ScreenletSession object at 0x934c72c>
+session is going to change from <screenlets.session.ScreenletSession object at 0x934c72c>
+service has changed to None
+service is going to change from None
+__desc__ has changed to A simple example of how to create a Screenlet
+__desc__ is going to change from A simple example of how to create a Screenlet
+service has changed to <screenlets.services.ScreenletService at /org/screenlets/ControlTemps at 0x934cb0c>
+service is going to change from <screenlets.services.ScreenletService at /org/screenlets/ControlTemps at 0x934cb0c>
+width has changed to 238
+width is going to change from 238
+height has changed to 191
+height is going to change from 191
+is_dragged has changed to False
+is_dragged is going to change from False
+__path__ has changed to /home/telecentreuser
+__path__ is going to change from /home/telecentreuser
+saving_enabled has changed to False
+saving_enabled is going to change from False
+resize_on_scroll has changed to True
+resize_on_scroll is going to change from True
+_Screenlet__shape_bitmap has changed to None
+_Screenlet__shape_bitmap is going to change from None
+_Screenlet__shape_bitmap_width has changed to 0
+_Screenlet__shape_bitmap_width is going to change from 0
+_Screenlet__shape_bitmap_height has changed to 0
+_Screenlet__shape_bitmap_height is going to change from 0
+gtk_icon_theme has changed to <gtk.IconTheme object at 0x93467d4 (GtkIconTheme at 0x8fccc48)>
+gtk_icon_theme is going to change from <gtk.IconTheme object at 0x93467d4 (GtkIconTheme at 0x8fccc48)>
+closeb has changed to <gtk.gdk.Pixbuf object at 0x93467fc (GdkPixbuf at 0x900d738)>
+closeb is going to change from <gtk.gdk.Pixbuf object at 0x93467fc (GdkPixbuf at 0x900d738)>
+prop has changed to <gtk.gdk.Pixbuf object at 0x9346cd4 (GdkPixbuf at 0x900d770)>
+prop is going to change from <gtk.gdk.Pixbuf object at 0x9346cd4 (GdkPixbuf at 0x900d770)>
+draw_buttons has changed to True
+draw_buttons is going to change from True
+uses_theme has changed to True
+uses_theme is going to change from True
+ask_on_option_override has changed to False
+ask_on_option_override is going to change from False
+window has changed to <gtk.Window object at 0x9350054 (GtkWindow at 0x93a6040)>
+window is going to change from <gtk.Window object at 0x9350054 (GtkWindow at 0x93a6040)>
+_Screenlet__shape_bitmap has changed to <gtk.gdk.Pixmap object at 0x93501bc (GdkPixmap at 0x9365490)>
+_Screenlet__shape_bitmap is going to change from <gtk.gdk.Pixmap object at 0x93501bc (GdkPixmap at 0x9365490)>
+_Screenlet__shape_bitmap_width has changed to 238
+_Screenlet__shape_bitmap_width is going to change from 238
+_Screenlet__shape_bitmap_height has changed to 191
+_Screenlet__shape_bitmap_height is going to change from 191
+menu has changed to <gtk.Menu object at 0x93501e4 (GtkMenu at 0x93f6018)>
+menu is going to change from <gtk.Menu object at 0x93501e4 (GtkMenu at 0x93f6018)>
+first_run has changed to True
+first_run is going to change from True
+theme_name has changed to png
+Theme set to: 'png'
+theme.conf found! Loading option-overrides.
+Loaded theme config from: /home/telecentreuser/.screenlets/ControlTemps/themes/png/theme.conf
+	Name: pngtest
+	Author: RYX (Rico Pfaus)
+	Version: 1.0
+	Info: An example theme that uses PNG-files.
+theme has changed to {'example-bg.png': <cairo.ImageSurface object at 0x8edab70>}
+theme is going to change from {'example-bg.png': <cairo.ImageSurface object at 0x8edab70>}
+p_layout has changed to <pango.Layout object at 0x935025c (PangoLayout at 0x8e7b110)>
+p_layout is going to change from <pango.Layout object at 0x935025c (PangoLayout at 0x8e7b110)>
+p_fdesc has changed to Normal
+p_fdesc is going to change from Normal
+theme_name is going to change from png
+telecentreuser
+IdUser has changed to None
+IdUser is going to change from None
+number has changed to 0:00:00
+number is going to change from 0:00:00
+timer has changed to 13
+timer is going to change from 13
+timerMinug has changed to 14
+timerMinug is going to change from 14
+x has changed to 0
+x is going to change from 0
+Set options in ExampleScreenlet
+disable_updates has changed to True
+disable_updates is going to change from True
+theme_name has changed to png
+Theme set to: 'png'
+theme.conf found! Loading option-overrides.
+Loaded theme config from: /home/telecentreuser/.screenlets/ControlTemps/themes/png/theme.conf
+	Name: pngtest
+	Author: RYX (Rico Pfaus)
+	Version: 1.0
+	Info: An example theme that uses PNG-files.
+theme has changed to {'example-bg.png': <cairo.ImageSurface object at 0x8edab70>}
+theme is going to change from {'example-bg.png': <cairo.ImageSurface object at 0x8edab70>}
+theme_name is going to change from png
+is_sticky has changed to False
+is_sticky is going to change from False
+keep_above has changed to True
+keep_above is going to change from True
+is_dragged has changed to False
+is_dragged is going to change from False
+keep_below has changed to False
+keep_below is going to change from False
+y has changed to 44
+y is going to change from 44
+x has changed to 731
+x is going to change from 731
+skip_taskbar has changed to True
+skip_taskbar is going to change from True
+disable_updates has changed to False
+disable_updates is going to change from False
+saving_enabled has changed to True
+saving_enabled is going to change from True
+has_started has changed to True
+has_started is going to change from True
+is_dragged has changed to False
+is_dragged is going to change from False
+keep_above has changed to True
+keep_above is going to change from True
+keep_below has changed to False
+keep_below is going to change from False
+is_sticky has changed to False
+is_sticky is going to change from False
+skip_taskbar has changed to True
+skip_taskbar is going to change from True
+i just got started
+has_focus has changed to False
+has_focus is going to change from False
+keep_above has changed to True
+keep_above is going to change from True
+Restored instances from session 'default' ...
+has_focus has changed to False
+has_focus is going to change from False
+is_dragged has changed to True
+is_dragged is going to change from True
+is_dragged has changed to False
+is_dragged is going to change from False
+has_focus has changed to True
+has_focus is going to change from True
+has_focus has changed to False
+has_focus is going to change from False
+has_focus has changed to False
+has_focus is going to change from False
+has_focus has changed to False
+has_focus is going to change from False
+has_focus has changed to False
+has_focus is going to change from False

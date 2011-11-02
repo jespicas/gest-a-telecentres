@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<compiz_session id="108b5145343a15ec28131071656214640300000168220031">
+  <window id="108b5145343a15ec28131071656214713400000168220033" title="x-nautilus-desktop" class="Nautilus" name="desktop_window" command="nautilus">
+    <geometry x="0" y="0" width="1024" height="768"/>
+  </window>
+  <window id="108b5145343a15ec28131071659110615200000168220035" title="telecentreuser@testTelestany: ~/.config/autostart" class="Gnome-terminal" name="gnome-terminal" role="gnome-terminal-window-17021--1822688531-1310716591" command="gnome-terminal">
+    <geometry x="0" y="24" width="655" height="401"/>
+    <workspace index="0"/>
+  </window>
+</compiz_session>

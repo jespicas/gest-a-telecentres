@@ -1,0 +1,9 @@
+Descativar que mostri llista dels usuaris el GDM
+sudo -u gdm gconftool-2 --set --type boolean /apps/gdm/simple-greeter/disable_user_list true
+
+Canviar themes gdm
+sudo cp /usr/share/applications/gnome-appearance-properties.desktop /usr/share/gdm/autostart/LoginWindow 
+Surts de la sessio d'usuari i et demanar per canviar.
+un cop fet . Entres com usuari 
+sudo unlink /usr/share/gdm/autostart/LoginWindow/gnome-appearance-properties.desktop 
+

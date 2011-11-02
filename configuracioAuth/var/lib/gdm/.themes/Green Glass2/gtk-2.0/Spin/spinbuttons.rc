@@ -1,0 +1,124 @@
+################ Spinbuttons #################
+
+style "spinbutton"
+{
+
+  engine "pixmap"
+  {
+    image
+    {
+      function			= ARROW
+    }
+
+######### Up #########
+    image
+    {
+      function			= BOX
+      state 			= NORMAL
+      detail			= "spinbutton_up"
+      recolorable		= TRUE
+      file				= "Spin/spin.png"
+      border			= { 0, 0, 0, 0 }
+      stretch			= TRUE
+      overlay_file		= "Spin/spin-up.png"
+      overlay_stretch	= FALSE
+    }
+
+   image
+    {
+      function			= BOX
+      state 			= PRELIGHT
+      detail			= "spinbutton_up"
+      recolorable		= TRUE
+      file				= "Spin/spin.png"
+      border			= { 0, 0, 0, 0 }
+      stretch			= TRUE
+      overlay_file		= "Spin/spin-up-prelight.png"
+      overlay_stretch	= FALSE
+    }
+
+   image
+    {
+      function			= BOX
+      state 			= INSENSITIVE
+      detail			= "spinbutton_up"
+      recolorable		= TRUE
+      file				= "Spin/spin.png"
+      border			= { 0, 0, 0, 0 }
+      stretch			= TRUE
+      overlay_file		= "Spin/spin-up-disable.png"
+      overlay_stretch	= FALSE
+    }
+
+   image
+    {
+      function			= BOX
+      state 			= ACTIVE
+      detail			= "spinbutton_up"
+      recolorable		= TRUE
+      file				= "Spin/spin.png"
+      border			= { 0, 0, 0, 0 }
+      stretch			= TRUE
+      overlay_file		= "Spin/spin-up-prelight.png"
+      overlay_stretch	= FALSE
+    }
+
+
+######### Down ##########
+    
+image
+    {
+      function			= BOX
+      state 			= NORMAL
+      detail			= "spinbutton_down"
+      recolorable		= TRUE
+      file				= "Spin/spin.png"
+      border			= { 0, 0, 0, 0 }
+      stretch			= TRUE
+      overlay_file		= "Spin/spin-down.png"
+      overlay_stretch	= FALSE
+    }
+
+    image
+    {
+      function			= BOX
+      state 			= PRELIGHT
+      detail			= "spinbutton_down"
+      recolorable		= TRUE
+      file				= "Spin/spin.png"
+      border			= { 0, 0, 0, 0 }
+      stretch			= TRUE
+      overlay_file		= "Spin/spin-down-prelight.png"
+      overlay_stretch	= FALSE
+    }
+
+    image
+    {
+      function			= BOX
+      state 			= INSENSITIVE
+      detail			= "spinbutton_down"
+      recolorable		= TRUE
+      file				= "Spin/spin.png"
+      border			= { 0, 0, 0, 0 }
+      stretch			= TRUE
+      overlay_file		= "Spin/spin-down-disable.png"
+      overlay_stretch	= FALSE
+    }
+
+    image
+    {
+      function			= BOX
+      state 			= ACTIVE
+      detail			= "spinbutton_down"
+      recolorable		= TRUE
+      file				= "Spin/spin.png"
+      border			= { 0, 0, 0, 0 }
+      stretch			= TRUE
+      overlay_file		= "Spin/spin-down-prelight.png"
+      overlay_stretch	= FALSE
+    }
+
+  }
+}
+
+class "GtkSpinButton"   	 			style "spinbutton"

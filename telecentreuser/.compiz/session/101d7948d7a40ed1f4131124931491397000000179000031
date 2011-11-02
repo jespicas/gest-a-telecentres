@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<compiz_session id="101d7948d7a40ed1f4131124931491397000000179000031">
+  <window id="101d7948d7a40ed1f4131124931491500300000179000033" title="x-nautilus-desktop" class="Nautilus" name="desktop_window" command="nautilus">
+    <geometry x="0" y="0" width="1024" height="768"/>
+  </window>
+</compiz_session>

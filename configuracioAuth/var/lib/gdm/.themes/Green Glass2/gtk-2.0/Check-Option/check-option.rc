@@ -1,0 +1,213 @@
+############ Checkboxes ##########
+
+
+style "checkbutton"	= "default"
+{
+  engine "pixmap" 
+    {
+	#This is the image used to draw an unchecked box.
+        image 
+	{
+            function         = CHECK
+            recolorable     = TRUE
+            state		 = NORMAL
+            shadow          = OUT
+            overlay_file     = "Check-Option/checkbox-unselected-normal.png"
+            overlay_stretch = FALSE
+        }
+
+ image 
+	{
+            function        = CHECK
+            recolorable     = TRUE
+            state 		= PRELIGHT
+            shadow         = OUT
+            overlay_file    = "Check-Option/checkbox-unselected-prelight.png"
+            overlay_stretch = FALSE
+        }
+
+ image 
+	{
+            function         = CHECK
+            recolorable     = TRUE
+            state 		 = ACTIVE
+            shadow          = OUT
+            overlay_file    = "Check-Option/checkbox-unselected-pressed.png"
+            overlay_stretch = FALSE
+        }
+
+ image 
+	{
+            function         = CHECK
+            recolorable     = TRUE
+            state 		 = INSENSITIVE
+            shadow          = OUT
+            overlay_file    = "Check-Option/checkbox-disabled-normal.png"
+            overlay_stretch = FALSE
+        }
+
+
+
+
+
+
+        image 
+	{
+            function         = CHECK
+            recolorable     = TRUE
+	    state 		= NORMAL
+            shadow          = IN
+            overlay_file    = "Check-Option/checkbox-selected-normal.png"
+            overlay_stretch = FALSE
+        }
+
+  image 
+	{
+            function        = CHECK
+            recolorable     = TRUE
+	    state 		= PRELIGHT
+            shadow          = IN
+            overlay_file    = "Check-Option/checkbox-selected-prelight.png"
+            overlay_stretch = FALSE
+        }
+
+ image 
+	{
+            function        = CHECK
+            recolorable     = TRUE
+	    state 		= ACTIVE
+            shadow          = IN
+            overlay_file    = "Check-Option/checkbox-selected-pressed.png"
+            overlay_stretch = FALSE
+        }
+
+
+     image 
+	{
+            function        = CHECK
+            recolorable     = TRUE
+	    state 		= INSENSITIVE
+            shadow          = IN
+            overlay_file    = "Check-Option/checkbox-disabled-normal.png"
+            overlay_stretch = FALSE
+        }
+
+
+	image 
+	{
+          function           = FLAT_BOX
+          recolorable     	= TRUE
+      	  stretch		= TRUE
+          file                  = "Check-Option/checklight.png"
+          border             = { 2, 2, 2, 2 }
+        }
+
+    }
+}
+############ Radiobuttons ###########
+
+style "radiobutton"	= "default"
+{
+  engine "pixmap" 
+    {
+
+        image 
+	{
+            function        = OPTION
+            recolorable     = TRUE
+            state 		= NORMAL
+            shadow          = OUT
+            overlay_file    = "Check-Option/option-unselected-normal.png"
+            overlay_stretch = FALSE
+        }
+
+ image 
+	{
+            function        = OPTION
+            recolorable     = TRUE
+            state 		= PRELIGHT
+            shadow          = OUT
+            overlay_file    = "Check-Option/option-unselected-prelight.png"
+            overlay_stretch = FALSE
+        }
+
+ image 
+	{
+            function        = OPTION
+            recolorable     = TRUE
+            state 		= ACTIVE
+            shadow          = OUT
+            overlay_file    = "Check-Option/option-unselected-pressed.png"
+            overlay_stretch = FALSE
+        }
+
+ image 
+	{
+            function        = OPTION
+            recolorable     = TRUE
+            state = INSENSITIVE
+            shadow          = OUT
+            overlay_file    = "Check-Option/option-unselected-insensitive.png"
+            overlay_stretch = FALSE
+        }
+
+        image 
+	{
+            function        = OPTION
+            recolorable     = TRUE
+	    state 		= NORMAL
+            shadow          = IN
+            overlay_file    = "Check-Option/option-selected-normal.png"
+            overlay_stretch = FALSE
+        }
+
+  image 
+	{
+            function        = OPTION
+            recolorable     = TRUE
+	    state 		= PRELIGHT
+            shadow          = IN
+            overlay_file    = "Check-Option/option-selected-prelight.png"
+            overlay_stretch = FALSE
+        }
+
+ image 
+	{
+            function        = OPTION
+            recolorable     = TRUE
+	    state 		= ACTIVE
+            shadow          = IN
+            overlay_file    = "Check-Option/option-selected-pressed.png"
+            overlay_stretch = FALSE
+        }
+
+
+     image 
+	{
+            function        = OPTION
+            recolorable     = TRUE
+	    state 		= INSENSITIVE
+            shadow          = IN
+            overlay_file    = "Check-Option/option-selected-insensitive.png"
+            overlay_stretch = FALSE
+        }
+
+
+
+
+	image 
+	{
+          function        = FLAT_BOX
+            recolorable     = TRUE
+      stretch			= TRUE
+            file            = "Check-Option/checklight.png"
+          border          = { 2, 2, 2, 2 }
+        }
+
+    }
+}
+
+class "GtkCheckButton"     			style "checkbutton"
+class "GtkRadioButton"     			style "radiobutton"
+class "GtkRadioMenuItem"    			style "radiobutton"
+class "GtkCheckMenuItem"   			style "checkbutton"

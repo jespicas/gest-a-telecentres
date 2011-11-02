@@ -1,0 +1,37 @@
+En el client Linux 
+http://quimicefa.wordpress.com/2008/01/05/ssh-sin-password/ -> extret d'aqui 
+Es crea ssh-keygen -t rsa
+sense password (en blanc)
+
+Aixo genera unes claus dintre de .ssh 
+llavors hem de posar les claus que autoritzen 
+cat id_rsa.pub >> .ssh/autorized_keys
+
+en el /etc/ssh/sshd_config 
+RSAAuthentication yes
+PubkeyAuthentication yes
+AuthorizedKeysFile %h/.ssh/authorized_keys
+han d'estar descomentades!
+
+PEr windows
+ens copie id_rsa i utilizem el PuttyGen -> i convertim a ppk.
+
+Llavors si volem enviar qualsevol sentencia utilizem el plink
+
+exemple:
+plink -i id_rsa.ppk root@IP sentencia-> shutdown -h now per exemple
+
+perque puguis entrar com a root -> l'usuari root ha de tenir a la seva carpeta .ssh 
+
+per conectarse shh
+putty test@IP -i id_rsa.ppk
+
+
+perque un usuari no demani password al fer sudo 
+editar /etc/sudoers
+
+i posar
+
+usuari ALL=(ALL) NOPASSWD: ALL
+export DISPLAY=:0.0
+sudo -u (usuari esta  les X) gxmessage "bla,bla , bla " li envies un missatge

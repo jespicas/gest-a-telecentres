@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="virtual_root" mtime="1316432883" type="string">
+		<stringvalue>file:///home/telecentreuser/Escriptori</stringvalue>
+	</entry>
+	<entry name="root" mtime="1316432883" type="string">
+		<stringvalue>file:///</stringvalue>
+	</entry>
+	<entry name="tree_view" mtime="1316432883" type="bool" value="true"/>
+</gconf>

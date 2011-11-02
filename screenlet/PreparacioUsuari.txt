@@ -1,0 +1,19 @@
+Gconf-editor
+Afegir Icones a l'escriptori 
+/apps/nautilus/desktop -> habilitar computer_icon_visible,...,etc 
+Bloquejar el Panell per no poder afegir coses ni botò dret al menú
+/apps/panel/globlal -> marcar locked_down
+Desactivar línia de comandes (Terminal)
+/desktop/gnome/lockdown/disable_command_line
+(llavors descativar tb del menú ... tampoc funcionen si i surten ) -> alt + f2 tampoc funciona 
+
+gmenu-simple-editor -> editor simple (Si se li posa permisos 744) llavors ja no es pot utilitzar
+
+alacarte -> editor mes complex (Si se li posa permisos 744) llavors ja no es pot utilitzar
+pessulus -> desactivar del tot. Consola.
+Utilitzar  pessulus per desactivar terminal
+
+la carpeta que està a ETC/telestany 
+chown -R telecentreuser:users telecentreuser
+chmod 775 -R telecentreuser
+

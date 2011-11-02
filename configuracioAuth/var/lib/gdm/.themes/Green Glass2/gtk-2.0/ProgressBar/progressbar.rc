@@ -1,0 +1,57 @@
+##################### Progressbar ###################x
+
+style "progressbar" {
+  
+  	fg[PRELIGHT]       = "#ffffff"
+  	text[PRELIGHT]       = "#ffffff"
+  
+	xthickness            		= 1
+  	ythickness            		= 1
+  
+engine "pixmap" 
+  {
+    
+image
+    {
+      function			= BOX
+      detail				= "trough"
+      file				= "ProgressBar/trough-progressbar-horizontal.png"
+      border			= { 2, 2, 2, 2 }
+      stretch			= TRUE
+      orientation		= HORIZONTAL
+    }
+
+image
+    {
+	function			= BOX
+	detail			= "bar"
+      	file				= "ProgressBar/progressbar-horizontal.png"
+      	border			= { 0, 0, 0, 0 }
+      	stretch			= FALSE
+      	orientation		= HORIZONTAL
+    } 
+
+image
+    {
+      	function			= BOX
+	detail			= "trough"
+      	file				= "ProgressBar/trough-progressbar-vertical.png"
+      	border			= { 2, 2, 2, 2 }
+      	stretch			= TRUE
+      	orientation		= VERTICAL
+    }
+
+image
+    {
+      	function			= BOX
+	detail			= "bar"
+      	file				= "ProgressBar/progressbar-vertical.png"
+      	border			= { 0, 0, 0, 0 }
+      	stretch			= FALSE
+      	orientation		= VERTICAL
+    } 
+  }
+}
+
+class "GtkProgress"					style "progressbar"
+class "GtkProgressBar"     			style "progressbar"

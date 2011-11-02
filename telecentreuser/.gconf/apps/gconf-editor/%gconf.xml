@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="recents" mtime="1310640431" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>/apps/panel/global/locked_down</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/desktop/gnome/lockdown/disable_command_line</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/desktop/gnome/lockdown/disable_application_handlers</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/desktop/gnome/lockdown/disable_user_switching</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/apps/nautilus/desktop/trash_icon_visible</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/apps/nautilus/desktop/network_icon_visible</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/apps/nautilus/desktop/home_icon_visible</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/apps/nautilus/desktop/computer_icon_visible</stringvalue>
+		</li>
+	</entry>
+</gconf>

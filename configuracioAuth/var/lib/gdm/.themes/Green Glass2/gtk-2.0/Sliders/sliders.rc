@@ -1,0 +1,107 @@
+######################## Sliders #######################
+
+style "sliders"			= "default"
+{	
+  engine "pixmap" 
+  {
+    image 
+    {
+      function			= BOX
+      recolorable		= TRUE
+      detail			= "trough"
+      file				= "Sliders/trough-horizontal.png"
+      border			= { 10, 10, 1, 19 }
+      stretch			= TRUE
+      orientation		= HORIZONTAL
+    }	
+    image 
+    {
+      function			= BOX
+      recolorable		= TRUE
+      detail			= "trough"
+      file				= "Sliders/trough-vertical.png"
+      border			= { 0, 19, 10, 10 }
+      stretch			= TRUE
+      orientation		= VERTICAL
+    }
+############### the sliders ###############
+
+    image 
+    {
+      function			= SLIDER
+      recolorable		= TRUE
+      state           		= NORMAL
+      file				= "Sliders/null.png"
+      border			= { 0, 0, 0, 0 }
+      stretch			= TRUE
+      overlay_file		= "Sliders/slider-horiz.png"
+      overlay_stretch	= FALSE
+      orientation		= HORIZONTAL
+    }
+    image 
+    {
+      function			= SLIDER
+      recolorable		= TRUE
+     state           		= PRELIGHT
+      file				= "Sliders/null.png"
+      border			= { 0, 0, 0, 0 }
+      stretch			= TRUE
+      overlay_file		= "Sliders/slider-horiz-prelight.png"
+      overlay_stretch	= FALSE
+      orientation		= HORIZONTAL
+    }
+    image 
+    {
+      function			= SLIDER
+      recolorable		= TRUE
+      state           		= INSENSITIVE
+      file				= "Sliders/null.png"
+      border			= { 0, 0, 0, 0 }
+      stretch			= TRUE
+      overlay_file		= "Sliders/slider-horiz.png"
+      overlay_stretch	= FALSE
+      orientation		= HORIZONTAL
+    }
+
+######################### VERTICAL ###########################
+
+    image 
+    {
+      function			= SLIDER
+      recolorable		= TRUE
+      state           		= NORMAL
+      file				= "Sliders/null.png"
+      border			= { 0, 0, 0, 0 }
+      stretch			= TRUE
+      overlay_file		= "Sliders/slider-vert.png"
+      overlay_stretch	= FALSE
+      orientation		= VERTICAL
+    }
+    image 
+    {
+      function			= SLIDER
+      recolorable		= TRUE
+     state           		= PRELIGHT
+      file				= "Sliders/null.png"
+      border			= { 0, 0, 0, 0 }
+      stretch			= TRUE
+      overlay_file		= "Sliders/slider-vert-prelight.png"
+      overlay_stretch	= FALSE
+      orientation		= VERTICAL
+    }
+    image 
+    {
+      function			= SLIDER
+      recolorable		= TRUE
+      state           		= INSENSITIVE
+      file				= "Sliders/null.png"
+      border			= { 0, 0, 0, 0 }
+      stretch			= TRUE
+      overlay_file		= "Sliders/slider-vert.png"
+      overlay_stretch	= FALSE
+      orientation		= VERTICAL
+    }
+  }
+}
+
+class "GtkRange"         style "sliders"

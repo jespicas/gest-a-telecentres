@@ -1,0 +1,111 @@
+##################### Toolbar Background #####################
+style "toolbar-bg" = "default"		
+{
+  xthickness			= 1
+  ythickness			= 2
+
+	engine "pixmap"
+	{
+		image
+		{
+			function	= BOX
+			file		= "Toolbar/toolbar-bg-no-line.png"
+			border	= { 2, 2, 2, 2 }
+			stretch	= TRUE
+    		}
+ 	}
+}
+
+
+
+##################### Toolbar Background No Line#####################
+style "toolbar-bg-no-line" = "default"		
+{
+  xthickness			= 1
+  ythickness			= 2
+
+	engine "pixmap"
+	{
+		image
+		{
+			function	= BOX
+			file		= "Toolbar/toolbar.png"
+			border	= { 2, 2, 2, 2 }
+			stretch	= TRUE
+    		}
+ 	}
+}
+
+
+
+
+##################### Toolbar Buttons #########################
+
+style "toolbar-buttons" = "default"
+{
+
+
+
+  xthickness            			= 1
+  ythickness            			= 1
+
+
+	GtkWidget::focus_padding = 2
+
+	engine "pixmap" {
+      
+image
+		{
+			function        			= BOX
+			recolorable     			= TRUE
+			state					= NORMAL
+			file            			= "Toolbar/tool-button-normal.png"
+			border          			= { 5, 5, 5, 5 }
+			stretch         			= TRUE
+		}
+		
+image
+		{
+			function        			= BOX
+			recolorable     			= TRUE
+			state					= PRELIGHT
+			file            			= "Toolbar/tool-button-prelight.png"
+			border          			= { 5, 5, 5, 5 }
+			stretch         			= TRUE
+		}
+
+image
+		{
+			function        			= BOX
+			recolorable     			= TRUE
+			state					= ACTIVE
+			file            			= "Toolbar/tool-button-pressed.png"
+			border          			= { 5, 5, 5, 5 }
+			stretch         			= TRUE
+		}  
+image
+		{
+			function        			= BOX
+			recolorable     			= TRUE
+			state					= INSENSITIVE
+			file            			= "Toolbar/tool-button-insensitive.png"
+			border          			= { 5, 5, 5, 5 }
+			stretch         			= TRUE
+		}  
+
+	}
+
+}
+
+
+class "*BonoboDockItem"				style "toolbar-bg"
+widget_class "*BonoboDockItem"		style "toolbar-bg"
+class "*HandleBox"					style "toolbar-bg"
+widget_class "*HandleBox"			style "toolbar-bg"
+class "*Toolbar"						style "toolbar-bg"
+widget_class "*Toolbar"				style "toolbar-bg"
+
+widget_class "*Tool*GtkToggleButton"	style "toolbar-buttons"
+widget_class "*Tool*GtkButton"			style "toolbar-buttons"
+
+

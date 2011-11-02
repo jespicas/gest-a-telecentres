@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="disable_command_line" mtime="1311250736" type="bool" value="true"/>
+	<entry name="disable_application_handlers" mtime="1310630501" type="bool" value="false"/>
+	<entry name="disable_user_switching" mtime="1310630175" type="bool" value="true"/>
+</gconf>

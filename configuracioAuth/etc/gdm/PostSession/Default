@@ -1,0 +1,8 @@
+#!/bin/sh
+#export user=`eval whoami`
+#dataEntrada=`date +'%d-%m-%Y %k:%M:%S'`
+#echo $dataEntrada
+#gxmessage Usuari:$user Ha entrat a $dataEntrada
+python /usr/share/local/telestany/Fisessio.py
+python /usr/share/local/telestany/Client.py "SURTO" &
+exit 0

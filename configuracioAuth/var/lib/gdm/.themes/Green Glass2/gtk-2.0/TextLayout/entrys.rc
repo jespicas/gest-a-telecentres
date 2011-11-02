@@ -1,0 +1,130 @@
+##########################Entrys ######################
+
+style "textentry"			= "default"
+{
+	xthickness =2
+ 	ythickness = 2
+	GtkWidget::interior_focus	= 0
+	GtkWidget::focus-line-width = 2
+	GtkWidget::focus-padding = 0
+
+engine "pixmap"
+  {
+    image
+    {
+      function			= FOCUS
+      recolorable			= TRUE
+      file				= "TextLayout/text-entry-selected.png"
+      border				= { 4, 4, 4, 4 }
+      stretch			= TRUE
+    }	
+ image
+    {
+      function			= BOX
+	shadow			= IN
+      recolorable			= TRUE
+      state				= NORMAL
+      file				= "TextLayout/text-entry-selected.png"
+      border				= { 4, 4, 4, 4 }
+      stretch			= TRUE
+    }
+
+ image
+    {
+      function			= BOX
+	shadow			= OUT
+      recolorable			= TRUE
+      state				= NORMAL
+      file				= "TextLayout/text-entry.png"
+      border				= { 4, 4, 4, 4 }
+      stretch			= TRUE
+    }
+
+ image
+    {
+      function			= SHADOW
+      shadow			= IN
+      detail				= "entry"
+      recolorable			= TRUE
+      state				= NORMAL
+      file				= "TextLayout/text-entry.png"
+      border			= { 4, 4, 4, 4 }
+      stretch			= TRUE
+    }			
+  }
+}
+
+
+
+
+##########################Entrys ######################
+
+style "no-entry"			= "default"
+{
+	xthickness =2
+ 	ythickness = 2
+	GtkWidget::interior_focus	= 0
+	GtkWidget::focus-line-width = 2
+	GtkWidget::focus-padding = 0
+
+engine "pixmap"
+  {
+    image
+    {
+      function			= FOCUS
+      recolorable			= TRUE
+      file				= "Others/null.png"
+      border				= { 4, 4, 4, 4 }
+      stretch			= TRUE
+    }	
+ image
+    {
+      function			= BOX
+	shadow			= IN
+      recolorable			= TRUE
+      state				= NORMAL
+      file				= "Others/null.png"
+      border				= { 4, 4, 4, 4 }
+      stretch			= TRUE
+    }
+
+ image
+    {
+      function			= BOX
+	shadow			= OUT
+      recolorable			= TRUE
+      state				= NORMAL
+      file				= "Others/null.png"
+      border				= { 4, 4, 4, 4 }
+      stretch			= TRUE
+    }
+
+ image
+    {
+      function			= SHADOW
+      shadow			= IN
+      detail				= "entry"
+      recolorable			= TRUE
+      state				= NORMAL
+      file				= "Others/null.png"
+      border			= { 4, 4, 4, 4 }
+      stretch			= TRUE
+    }			
+  }
+}
+
+
+
+class "GtkEntry"           				style "textentry"
+class "GtkText"           				style "textentry"
+class "GtkTextView"           			style "textentry"
+class "GtkEditable"           				style "textentry"
+class "GtkOldEditable" 				style "textentry"
+
+
+
+
+
+
+
+

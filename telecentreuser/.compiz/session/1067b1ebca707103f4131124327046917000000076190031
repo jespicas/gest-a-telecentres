@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<compiz_session id="1067b1ebca707103f4131124327046917000000076190031">
+  <window id="1067b1ebca707103f4131124327046990900000076190033" title="x-nautilus-desktop" class="Nautilus" name="desktop_window" command="nautilus">
+    <geometry x="0" y="0" width="1024" height="768"/>
+  </window>
+  <window id="1067b1ebca707103f4131124327046990900000076190033" title="ControlTemps" class="Nautilus" name="nautilus" command="nautilus">
+    <geometry x="178" y="164" width="800" height="550"/>
+    <workspace index="0"/>
+  </window>
+</compiz_session>

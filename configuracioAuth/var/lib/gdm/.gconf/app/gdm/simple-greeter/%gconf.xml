@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="disable_user_list" mtime="1309942090" type="bool" value="true"/>
+</gconf>

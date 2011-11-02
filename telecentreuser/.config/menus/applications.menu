@@ -1,0 +1,21 @@
+<!DOCTYPE Menu
+  PUBLIC '-//freedesktop//DTD Menu 1.0//EN'
+  'http://standards.freedesktop.org/menu-spec/menu-1.0.dtd'>
+<Menu>
+	<Name>Applications</Name>
+	<MergeFile type="parent"/>
+	<Exclude>
+		<Filename>ubuntu-software-center.desktop</Filename>
+	</Exclude>
+	<AppDir>/home/telecentreuser/.local/share/applications</AppDir>
+	<Menu>
+		<Name>Accessories</Name>
+		<Exclude>
+			<Filename>screenlets-manager.desktop</Filename>
+		</Exclude>
+		<AppDir>/home/telecentreuser/.local/share/applications</AppDir>
+		<Exclude>
+			<Filename>gnome-terminal.desktop</Filename>
+		</Exclude>
+	</Menu>
+</Menu>

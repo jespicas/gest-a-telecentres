@@ -1,0 +1,102 @@
+#################### MENUBAR ###################
+
+style "no-menubar"
+{
+  xthickness			= 1
+  ythickness			= 0
+engine "pixmap"
+	{
+
+		image
+		{
+			function	= BOX
+			state 	= NORMAL
+			file		= "Menu-Menubar/menubar-panel.png"
+			border	= { 3, 3, 3, 3 }
+			stretch	= TRUE
+    		}
+	}
+}
+
+
+style "menubar-terminals"
+{
+  xthickness			= 1
+  ythickness			= 0
+engine "pixmap"
+	{
+
+		image
+		{
+			function	= BOX
+			state 	= NORMAL
+			file		= "Menu-Menubar/menubar-terminals.png"
+			border	= { 3, 3, 3, 3 }
+			stretch	= TRUE
+    		}
+	}
+}
+
+
+style "menubar"		
+{
+
+
+  fg[NORMAL] = "#616161"
+  text[NORMAL] = "#616161"
+  fg[PRELIGHT] = "#616161"
+  fg[ACTIVE] = "#616161"
+
+  xthickness			= 1
+  ythickness			= 3
+
+	engine "pixmap"
+	{
+		image
+		{
+			function	= BOX
+			state 	= NORMAL
+			file		= "Menu-Menubar/menubar.png"
+			border	= { 3, 3, 3, 3 }
+			stretch	= TRUE
+    		}
+
+		image
+		{
+			function	= BOX
+			state 	= ACTIVE
+			file		= "Menu-Menubar/menubar.png"
+			border	= { 3, 3, 3, 3 }
+			stretch	= TRUE
+    		}
+
+		image
+		{
+			function	= BOX
+			state 	= INSENSITIVE
+			file		= "Menu-Menubar/menubar.png"
+			border	= { 3, 3, 3, 3 }
+			stretch	= TRUE
+    		}
+
+		image
+		{
+			function			= BOX
+			recolorable		= TRUE
+			state = 			PRELIGHT
+			file				= "Menu-Menubar/menubar-item.png"
+			border			= { 8, 8, 8, 8 }
+			stretch			= TRUE
+		}
+
+ 	}
+}
+
+class "GtkMenuBar*"					style "menubar"
+widget_class "*MenuBar.*" 			style "menubar"
+widget_class "*Nautilus*.GtkMenuBar*"	style "menubar"
+widget_class "*E*GtkMenuBar*"		style "menubar"
+widget_class "*Gimp*GtkMenuBar*"		style "menubar"
+widget_class "*Firefox*GtkMenuBar*"	style "menubar"
+class "*Panel*" 					style "no-menubar"
+widget_class "*Terminal*" 					style "menubar-terminals"

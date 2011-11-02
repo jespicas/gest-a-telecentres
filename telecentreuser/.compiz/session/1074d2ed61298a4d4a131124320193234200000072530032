@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<compiz_session id="1074d2ed61298a4d4a131124320193234200000072530032">
+  <window id="1074d2ed61298a4d4a131124320193336700000072530034" title="x-nautilus-desktop" class="Nautilus" name="desktop_window" command="nautilus">
+    <geometry x="0" y="0" width="1024" height="768"/>
+  </window>
+  <window id="1074d2ed61298a4d4a131124320193336700000072530034" title="telecentreuser" class="Nautilus" name="nautilus" command="nautilus">
+    <geometry x="178" y="164" width="800" height="550"/>
+    <workspace index="0"/>
+  </window>
+</compiz_session>

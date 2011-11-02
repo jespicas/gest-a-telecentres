@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="use_upnp" mtime="1310726670" type="bool" value="true"/>
+	<entry name="prompt_enabled" mtime="1310726667" type="bool" value="false"/>
+	<entry name="authentication_methods" mtime="1310726647" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>vnc</stringvalue>
+		</li>
+	</entry>
+	<entry name="enabled" mtime="1310726640" type="bool" value="true"/>
+</gconf>

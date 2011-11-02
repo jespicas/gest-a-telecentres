@@ -1,0 +1,6 @@
+<config>
+<WebServer IP="213.151.114.85" Port="8082" />
+<GestorServer IP="172.17.14.48" />
+<Lloc Nom="Telestany" />
+<Ethernet Nom="eth0" />
+</config>

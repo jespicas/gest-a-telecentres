@@ -1,0 +1,17 @@
+[Desktop Entry]
+Categories=GNOME;GTK;Utility;TerminalEmulator;
+Comment=Use the command line
+Exec=gnome-terminal
+Icon=utilities-terminal
+Name=Terminal
+NoDisplay=false
+OnlyShowIn=GNOME;
+StartupNotify=true
+TryExec=gnome-terminal
+Type=Application
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Component=BugBuddyBugs
+X-GNOME-Bugzilla-Product=gnome-terminal
+X-GNOME-Bugzilla-Version=2.32.1
+X-GNOME-DocPath=gnome-terminal/index.html
+X-Ubuntu-Gettext-Domain=gnome-terminal

@@ -1,0 +1,2 @@
+#!/bin/sh
+python -u /home/test/.screenlets/ControlTemps/ControlTempsScreenlet.py &

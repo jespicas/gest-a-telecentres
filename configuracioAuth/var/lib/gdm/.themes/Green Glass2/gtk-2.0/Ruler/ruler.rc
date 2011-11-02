@@ -1,0 +1,27 @@
+##################### RULER ##################
+
+style "ruler"			= "default"
+{
+  engine "pixmap" {
+    image 
+      {
+        function			= BOX
+	recolorable		= TRUE
+	detail			= "vruler"
+	file				= "Ruler/ruler.png"
+	border			= { 2, 2, 2, 2 }
+	stretch			= TRUE
+      }
+    image 
+      {
+        function			= BOX
+	recolorable		= TRUE
+	detail			= "hruler"
+	file				= "Ruler/ruler.png"
+	border			= { 2, 2, 2, 2 }
+	stretch			= TRUE
+      }
+  }
+}
+
+class "GtkRuler"     style "ruler"

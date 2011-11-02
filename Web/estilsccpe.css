@@ -1,0 +1,684 @@
+/* Generals */
+
+body
+{
+    font-family: Arial, Helvetica, Sans-Serif;
+}
+
+a:link
+{
+    font-size: 11px;
+    color: #006666;
+}
+
+a:hover
+{
+    font-size: 11px;
+    color: #99CC00;
+    text-decoration: underline;
+}
+
+a:visited
+{
+    font-size: 11px;
+    color: #006666;
+    text-decoration: underline;
+}
+
+/* Específics */
+
+.fonsMenuSec
+{
+    background-color: #FFFFFF;
+    background-image: url(imatges/fos_menu.jpg);
+    background-repeat: repeat-y;
+    background-position: right;
+}
+
+.colorVerd
+{
+    background-color: #99CC00;
+    height: 5px;
+}
+
+.colorGris
+{
+    background-color: #333333;
+    height: 5px;
+}
+
+.colorVerdFosc
+{
+    background-color: #006666;
+    height: 24px;
+}
+
+.fonsMenuPpal
+{
+    background-color: #FFFFFF;
+    background-image: url(imatges/fos_menu_ppal.jpg);
+    background-position: centre;
+    height: 40px;
+}
+
+.tramatEsq
+{
+    background-image: url(imatges/fos_esq.gif);
+    background-repeat: repeat-y;
+    background-position: right;
+    width: 51px;
+}
+
+.tramatDret
+{
+    background-image: url(imatges/fos_dret.gif);
+    background-repeat: repeat-y;
+    background-position: left;
+    width: 51px;
+}
+
+.tramatFons
+{
+    background-image: url(imatges/pixel.gif);
+    background-repeat: repeat;
+}
+
+.logo
+{
+    height: 105px;
+}
+
+.fonsNomEns
+{
+    background-color: #FFFFFF;
+    background-image: url(imatges/fos_verd.jpg);
+    background-position: centre;
+    height: 37px;
+}
+
+.titolIntranet
+{
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.titolIntranet2
+{
+    font-family: "Arial Black" , Arial, Verdana;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.login
+{
+    font-size: 10px;
+    color: #CCFF99;
+}
+
+.login a:link, .login a:visited
+{
+    font-size: 10px;
+    color: #CCFF99;
+    text-decoration: none;
+}
+
+.login a:hover
+{
+    font-size: 10px;
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.titolEns
+{
+    font-size: 25px;
+    color: #000000;
+}
+
+.menuPpal
+{
+    font-size: 10px;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menuPpal a:link, .menuPpal a:visited
+{
+    font-size: 10px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.menuPpal a:hover
+{
+    font-size: 10px;
+    color: #006666;
+    text-decoration: none;
+}
+
+.menuPpal2
+{
+    font-size: 11px;
+    color: #333333;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    padding-top: 3px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    border-right: 1px solid #99CC00;
+    border-bottom: 1px solid #99CC00;
+    border-left: 1px solid #99CC00;
+}
+
+.menuPpal2 a:link, .menuPpal2 a:visited
+{
+    font-size: 11px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.menuPpal2 a:hover
+{
+    font-size: 11px;
+    color: #006666;
+    text-decoration: none;
+    background-color: #EFF9D0;
+}
+
+.menuLateral
+{
+    font-size: 11px;
+    color: #000000;
+    background-image: url(imatges/ico_menu1.gif);
+    background-repeat: no-repeat;
+    background-position: left centre;
+    padding-left: 20px;
+    height: 25px;
+    text-decoration: none;
+}
+
+.menuLateral a:link, .menuLateral a:visited
+{
+    font-size: 11px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.menuLateral a:hover
+{
+    font-size: 11px;
+    color: #FF0000;
+    text-decoration: none;
+}
+
+.menuLateral2
+{
+    font-size: 11px;
+    color: #006666;
+    background-image: url(imatges/ico_menu2.gif);
+    background-repeat: no-repeat;
+    background-position: left 7px;
+    padding-left: 8px;
+    height: 18px;
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+.menuLateral2 a:link, .menuLateral2 a:visited
+{
+    font-size: 11px;
+    color: #006666;
+    text-decoration: none;
+}
+
+.menuLateral2 a:hover
+{
+    font-size: 11px;
+    color: #FF0000;
+    text-decoration: none;
+}
+
+.breadcrumb
+{
+    font-size: 10px;
+    color: #999999;
+    height: 20px;
+}
+
+.breadcrumb a:link, .breadcrumb a:visited
+{
+    font-size: 10px;
+    color: #999999;
+    text-decoration: underline;
+}
+
+.breadcrumb a:hover
+{
+    font-size: 10px;
+    color: #006666;
+    text-decoration: underline;
+}
+
+.titolNews
+{
+    font-size: 25px;
+    color: #006666;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.dataNews
+{
+    font-size: 10px;
+    color: #999999;
+    height: 15px;
+}
+
+.titolNews2
+{
+    font-size: 16px;
+    color: #006666;
+    height: 25px;
+    font-weight: bold;
+}
+
+.textNews
+{
+    font-size: 11px;
+    color: #000000;
+    line-height: 14px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.logout
+{
+    font-size: 10px;
+    color: #99CC00;
+    line-height: 13px;
+    text-decoration: none;
+}
+
+.logout a:link, .logout a:visited
+{
+    font-size: 10px;
+    color: #99CC00;
+    line-height: 13px;
+    text-decoration: none;
+}
+
+.logout a:hover
+{
+    font-size: 10px;
+    color: #FF0000;
+    line-height: 13px;
+    text-decoration: underline;
+}
+
+.aclariment
+{
+    font-size: 10px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.textAclariment
+{
+    font-size: 10px;
+    color: #000000;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.titolAclariment
+{
+    font-size: 11px;
+    color: #006666;
+    line-height: 14px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+.fonsTaulaLogin
+{
+    background-color: #EAF4CF;
+    height: 160px;
+    width: 290px;
+    border: 1px dotted #000000;
+}
+
+.titolTaulaLogin
+{
+    font-size: 14px;
+    color: #006666;
+    padding-top: 40px;
+}
+
+.text
+{
+    font-size: 11px;
+    color: #000000;
+    line-height: 14px;
+}
+.textMajor
+{
+    font-size: 16px;
+    color: #000000;
+    line-height: 14px;
+}
+.input
+{
+    font-size: 11px;
+    color: #333333;
+    padding: 2px;
+    background-color: #FFFFFF;
+    border-top: 1px solid #999999;
+    border-right: 1px solid #006666;
+    border-bottom: 1px solid #006666;
+    border-left: 1px solid #999999;
+}
+
+.inputBoto
+{
+    font-size: 10px;
+    color: #000000;
+    padding: 2px;
+    background-color: #99CC00;
+    border-top: 1px solid #999999;
+    border-right: 1px solid #006666;
+    border-bottom: 1px solid #006666;
+    border-left: 1px solid #999999;
+}
+
+.textApagat
+{
+    font-size: 11px;
+    color: #999999;
+    line-height: 14px;
+}
+
+.peu
+{
+    font-size: 10px;
+    color: #333333;
+    padding-top: 3px;
+}
+
+.peu a:link, .peu a:visited
+{
+    font-size: 10px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.peu a:hover
+{
+    font-size: 10px;
+    color: #006666;
+    text-decoration: underline;
+}
+
+.titolApartat
+{
+    font-size: 13px;
+    color: #006666;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #99CC00;
+    padding-top: 20px;
+    padding-bottom: 2px;
+}
+
+.inputcheckbox
+{
+    font-size: 11px;
+    color: #000000;
+    padding: 2px;
+}
+
+.inputlist
+{
+    font-size: 11px;
+    color: #000000;
+}
+
+.textVermell
+{
+    font-size: 11px;
+    color: #FF0000;
+    line-height: 14px;
+    font-weight: bold;
+}
+
+.textVerd
+{
+    font-size: 11px;
+    color: #339933;
+    line-height: 14px;
+    font-weight: bold;
+}
+
+.text2
+{
+    font-size: 11px;
+    color: #666666;
+    line-height: 14px;
+}
+
+.textImport
+{
+    font-size: 11px;
+    color: #000000;
+    background-color: #FFFFFF;
+    font-weight: bold;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #CCCCCC;
+}
+
+.print
+{
+    font-size: 11px;
+    font-weight: bold;
+    color: #006666;
+    border: 1px solid #999999;
+    padding: 5px;
+    background-color: #ECF7CA;
+}
+
+.print a:link, .print a:visited
+{
+    font-size: 11px;
+    font-weight: bold;
+    color: #006666;
+    text-decoration: none;
+}
+
+.print a:hover
+{
+    font-size: 11px;
+    color: #FF0000;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.inputArea
+{
+    font-size: 11px;
+    color: #333333;
+    padding: 2px;
+    background-color: #FFFFFF;
+    border-top: 1px solid #999999;
+    border-right: 1px solid #006666;
+    border-bottom: 1px solid #006666;
+    border-left: 1px solid #999999;
+    height: 100px;
+    width: 250px;
+}
+
+.titolTasca
+{
+    font-size: 20px;
+    color: #333333;
+    padding-top: 20px;
+}
+
+.inputBotoVermell
+{
+    font-size: 10px;
+    color: #FFFFFF;
+    padding: 2px 10px;
+    background-color: #CC0000;
+    border-top: 1px solid #999999;
+    border-right: 1px solid #006666;
+    border-bottom: 1px solid #006666;
+    border-left: 1px solid #999999;
+}
+
+.fonsTaula
+{
+    background-color: #FFFFFF;
+    width: 90%;
+    border: 1px dotted #000000;
+    padding-left: 10px;
+}
+
+.titolNegre
+{
+    font-size: 15px;
+    color: #000000;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.data
+{
+    font-size: 10px;
+    color: #999999;
+}
+
+.titolTaula
+{
+    font-size: 10px;
+    color: #006666;
+    font-weight: bold;
+    background-color: #ECF7CA;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #99CC00;
+}
+
+.textTaula
+{
+    font-size: 11px;
+    color: #000000;
+    line-height: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #CCCCCC;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-right-color: #CCCCCC;
+    border-left-color: #FFFFFF;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+.textTaulaDestacat
+{
+    font-size: 11px;
+    color: #000000;
+    line-height: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #CCCCCC;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-right-color: #CCCCCC;
+    border-left-color: #FFFFFF;
+    font-weight: bold;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+.trColor1
+{
+    background-color: #F2F2F2;
+}
+
+.trColor2
+{
+    background-color: #FFFFFF;
+}
+
+.afegir
+{
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+    border: 1px solid #999999;
+    padding: 5px;
+    background-color: #D2E493;
+}
+
+.esborrar
+{
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+    border: 1px solid #999999;
+    padding: 5px;
+    background-color: #F2F2F2;
+}
+
+.taulaForm
+{
+    width: 95%;
+}
+
+.taulaFormInterior
+{
+    background-color: #F2F2F2;
+    padding: 0px;
+    width: 100%;
+    border: 0px;
+}
+
+.textForm
+{
+    font-size: 11px;
+    color: #000000;
+    line-height: 14px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #FFFFFF;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.textForm20
+{
+    font-size: 11px;
+    color: #000000;
+    line-height: 14px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #FFFFFF;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 130px;
+}

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="185"
+   height="20"
+   id="svg3821"
+   sodipodi:version="0.32"
+   inkscape:version="0.45"
+   version="1.0"
+   sodipodi:docbase="/home/mark/GDM/Relaxing_Water"
+   sodipodi:docname="entry.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/home/mark/GDM/entry.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
+   sodipodi:modified="true">
+  <defs
+     id="defs3823">
+    <linearGradient
+       id="linearGradient8281">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.61855668;"
+         offset="0"
+         id="stop8283" />
+      <stop
+         id="stop8289"
+         offset="0.5"
+         style="stop-color:#ffffff;stop-opacity:0.556701;" />
+      <stop
+         style="stop-color:#999999;stop-opacity:0.37254903;"
+         offset="0.5"
+         id="stop8291" />
+      <stop
+         style="stop-color:#a0a0a0;stop-opacity:0;"
+         offset="1"
+         id="stop8285" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8281"
+       id="linearGradient3802"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.2689655,0,0,1.2881356,-497.9507,-366.91024)"
+       x1="515.25"
+       y1="377.5"
+       x2="515.25"
+       y2="393.25" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3791">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3793" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop3795" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3791"
+       id="linearGradient3797"
+       x1="446"
+       y1="354.46799"
+       x2="679.40472"
+       y2="510.8255"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-366.07143,-261.99499)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="164.78168"
+     inkscape:cy="31.740062"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="872"
+     inkscape:window-height="621"
+     inkscape:window-x="204"
+     inkscape:window-y="202" />
+  <metadata
+     id="metadata3826">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-78.928566,-119.50504)">
+    <rect
+       ry="2.5762713"
+       rx="2.537931"
+       y="120.00504"
+       x="79.428566"
+       height="19"
+       width="184"
+       id="rect8279"
+       style="opacity:1;fill:url(#linearGradient3802);fill-opacity:1;stroke:#555753;stroke-width:0.99999988;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.82417585" />
+    <rect
+       ry="2.3050849"
+       rx="2.5103447"
+       y="121.00504"
+       x="80.428566"
+       height="17.000002"
+       width="182"
+       id="rect2817"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:url(#linearGradient3797);stroke-width:0.99999982;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.82417585" />
+  </g>
+</svg>

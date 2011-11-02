@@ -1,0 +1,16 @@
+C:\Documents and Settings\espi\Mis documentos\Visual Studio 2005\Projects\GestioTerminals\GestioTerminals\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\espi\Mis documentos\Visual Studio 2005\Projects\GestioTerminals\GestioTerminals\obj\Debug\GestioTerminals.Properties.Resources.resources
+C:\Documents and Settings\espi\Mis documentos\Visual Studio 2005\Projects\GestioTerminals\GestioTerminals\obj\Debug\GestioTerminals.csproj.GenerateResource.Cache
+C:\Documents and Settings\espi\Mis documentos\Visual Studio 2005\Projects\GestioTerminals\GestioTerminals\bin\Debug\GestioTerminals.exe
+C:\Documents and Settings\espi\Mis documentos\Visual Studio 2005\Projects\GestioTerminals\GestioTerminals\bin\Debug\GestioTerminals.pdb
+C:\Documents and Settings\espi\Mis documentos\Visual Studio 2005\Projects\GestioTerminals\GestioTerminals\obj\Debug\GestioTerminals.exe
+C:\Documents and Settings\espi\Mis documentos\Visual Studio 2005\Projects\GestioTerminals\GestioTerminals\obj\Debug\GestioTerminals.pdb
+C:\Documents and Settings\espi\Mis documentos\Visual Studio 2005\Projects\GestioTerminals\GestioTerminals\obj\Debug\GestioTerminals.Form1.resources
+C:\Develop\Telestany\trunk\GestioTerminals\GestioTerminals\obj\Debug\GestioTerminals.exe
+C:\Develop\Telestany\trunk\GestioTerminals\GestioTerminals\obj\Debug\GestioTerminals.pdb
+C:\Develop\Telestany\trunk\GestioTerminals\GestioTerminals\bin\Debug\GestioTerminals.exe
+C:\Develop\Telestany\trunk\GestioTerminals\GestioTerminals\bin\Debug\GestioTerminals.pdb
+C:\Develop\Telestany\trunk\GestioTerminals\GestioTerminals\obj\Debug\ResolveAssemblyReference.cache
+C:\Develop\Telestany\trunk\GestioTerminals\GestioTerminals\obj\Debug\GestioTerminals.Form1.resources
+C:\Develop\Telestany\trunk\GestioTerminals\GestioTerminals\obj\Debug\GestioTerminals.Properties.Resources.resources
+C:\Develop\Telestany\trunk\GestioTerminals\GestioTerminals\obj\Debug\GestioTerminals.csproj.GenerateResource.Cache

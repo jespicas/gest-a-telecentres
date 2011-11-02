@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="wm_use_compiz" mtime="1311922943" type="bool" value="false"/>
+	<entry name="disable_user_list" mtime="1311233049" type="bool" value="true"/>
+	<entry name="disabel_user_list" mtime="1310386440" type="bool" value="true"/>
+</gconf>

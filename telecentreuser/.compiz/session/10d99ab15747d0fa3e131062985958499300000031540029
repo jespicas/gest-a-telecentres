@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<compiz_session id="10d99ab15747d0fa3e131062985958499300000031540029">
+  <window id="10d99ab15747d0fa3e131062985958599800000031540031" title="x-nautilus-desktop" class="Nautilus" name="desktop_window" command="nautilus">
+    <geometry x="0" y="0" width="1024" height="768"/>
+  </window>
+  <window id="10d99ab15747d0fa3e131062987724279200000031540033" title="telecentreuser@testTelestany: ~" class="Gnome-terminal" name="gnome-terminal" role="gnome-terminal-window-3402-1179477718-1310629877" command="gnome-terminal">
+    <geometry x="0" y="24" width="655" height="401"/>
+    <workspace index="0"/>
+  </window>
+  <window id="10d99ab15747d0fa3e131062991853105700000031540034" title="PreparacioUsuari.txt (~/Escriptori) - gedit" class="Gedit" name="gedit" role="gedit-window-1310629918-887510-0-testTelestany" command="gedit">
+    <geometry x="0" y="214" width="650" height="500"/>
+    <workspace index="0"/>
+  </window>
+</compiz_session>

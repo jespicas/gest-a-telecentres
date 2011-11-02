@@ -1,0 +1,83 @@
+##################### LISTHEADERS ###################x
+
+style "list-header"
+{
+   	ythickness = 0
+   	GtkTreeView::odd_row_color = "#f4f4f4"
+   	GtkTreeView::even_row_color = "#FFFFFF" 
+
+engine "pixmap" 
+	{
+
+######## Normal State ########
+image
+      	{
+        function        	= BOX
+	recolorable    = TRUE
+	state		= NORMAL
+	file            	= "ListHeaders/list_header.png"
+	border          	= { 2, 7, 2, 7 }
+	stretch         	= TRUE
+      	}
+
+######## Prelighted State ########
+image
+      	{
+        function        	= BOX
+	recolorable    = TRUE
+	state		= PRELIGHT
+	file            	= "ListHeaders/list_header-prelight.png"
+	border          	= { 2, 7, 2, 7 }
+	stretch         	= TRUE
+      	}
+
+######## Pressed State ###########
+image
+      	{
+        function        	= BOX
+	recolorable    = TRUE
+	state		= ACTIVE
+	file			= "ListHeaders/list_header-pressed.png"
+	border          	= { 2, 7, 2, 7}
+	stretch         	= TRUE
+      	}
+
+image
+      	{
+        function        	= BOX
+	recolorable    = TRUE
+	state		= SELECTED
+	file			= "ListHeaders/list_header-pressed.png"
+	border          	= { 2, 7, 2, 7 }
+	stretch         	= TRUE
+      	}
+
+############# Inactive state ##########
+image
+      	{
+        function        	= BOX
+	recolorable    = TRUE
+	state		= INSENSITIVE
+	file			= "ListHeaders/list_header-insens.png"
+	border          	= { 2, 7, 2, 7 }
+	stretch         	= TRUE
+      }
+   }
+}
+
+class "GtkList"          				style "list-header"
+class "GtkTree"						style "list-header"
+class "GtkCList"					style "list-header"
+class "GtkCTree"					style "list-header"
+class "GtkTreeView"					style "list-header"
+
+
+widget_class "*List*"				style "list-header"
+widget_class "*GtkTree*"			style "list-header"
+widget_class "*GtkCList*"			style "list-header"
+widget_class "*List" style "list-header"
+widget_class "*GtkTree*" style "list-header"
+widget_class "*GtkCList*" style "list-header"
+widget "*gFTP*Tree*" style "list-header"
+widget "*Banshee*Play*" style "list-header"
+

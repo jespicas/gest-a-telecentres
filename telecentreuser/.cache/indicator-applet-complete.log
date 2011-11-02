@@ -1,0 +1,15 @@
+Binding '<Super>S' failed!
+
+New style for time label
+new_application_item ("Configura el xat...")
+entry hint: Envia un missatge...
+Get the username
+Updating username label
+indicator-sound: new_volume_slider_widget
+Request current apps
+Using user icon for 'Sessió de convidat' from file: (null)
+Building new application entry: :1.46  with icon: nm-device-wired at position 0
+New calendar item
+g_variant_get_string: assertion `value != NULL' failed
+Changing calendar property: calendar-marks
+notify visible signal recieved

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=ControlTempsScreenlet
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Exec= python -u /home/telecentreuser/.screenlets/ControlTemps/ControlTempsScreenlet.py
+X-GNOME-Autostart-enabled=true

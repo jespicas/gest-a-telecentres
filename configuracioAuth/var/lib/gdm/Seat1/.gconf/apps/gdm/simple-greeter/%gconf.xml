@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="recent-layouts" mtime="1307432562" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>es</stringvalue>
+		</li>
+	</entry>
+	<entry name="recent-languages" mtime="1310387300" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>ca_ES</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>ca_ES.utf8</stringvalue>
+		</li>
+	</entry>
+</gconf>

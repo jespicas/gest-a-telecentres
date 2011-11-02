@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<compiz_session id="1074a4c8c84b623240131124539210478000000107410031">
+  <window id="1074a4c8c84b623240131124539210551000000107410033" title="x-nautilus-desktop" class="Nautilus" name="desktop_window" command="nautilus">
+    <geometry x="0" y="0" width="1024" height="768"/>
+  </window>
+  <window id="1074a4c8c84b623240131124539210551000000107410033" title="ControlTemps" class="Nautilus" name="nautilus" command="nautilus">
+    <geometry x="178" y="164" width="800" height="550"/>
+    <workspace index="0"/>
+  </window>
+  <window id="1074a4c8c84b623240131124543390720000000107410035" title="ControlTempsScreenlet.py (~/.screenlets/ControlTemps) - gedit" class="Gedit" name="gedit" role="gedit-window-1311245434-202932-0-testTelestany" command="gedit">
+    <geometry x="0" y="24" width="1022" height="510"/>
+    <workspace index="0"/>
+  </window>
+</compiz_session>

@@ -1,0 +1,132 @@
+#################### BUTTONS #######################
+
+style "button" = "default"
+{
+
+  fg[PRELIGHT] = "#505050"
+  text[PRELIGHT] = "#505050"
+  fg[ACTIVE] = "#ffffff"
+  fg[SELECTED] = "#ffffff"
+  text[ACTIVE] = "#ffffff"
+  text[SELECTED] = "#ffffff"
+
+  xthickness            			= 2
+  ythickness            			= 4
+  engine "pixmap"
+  {
+
+    image
+    {
+      function			= BOX
+      detail			= "buttondefault"
+      recolorable		= TRUE
+      file				= "Buttons/button-default.png"
+      border			= { 8, 8, 8, 8 }
+      stretch			= TRUE
+    }
+
+
+
+    image
+    {
+      function			= BOX
+      state				= PRELIGHT
+      recolorable		= TRUE
+      file				= "Buttons/button-prelight.png"
+      border			= { 10, 10, 10, 10 }
+      stretch			= TRUE
+    }
+    image
+    {
+      function			= BOX
+      state				= ACTIVE
+      file				= "Buttons/button-pressed.png"
+      border			= { 10, 10, 10, 10 }
+      stretch			= TRUE
+    }	
+    image 
+   {
+     function			= BOX
+     state				= INSENSITIVE
+     file				= "Buttons/button-insensitive.png"
+     border			= { 10, 10, 10, 10 }
+     stretch			= TRUE
+    }
+    image 
+    {
+      function			= BOX
+      file				= "Buttons/button-normal.png"		
+      border			= { 10, 10, 10, 10 }
+      stretch			= TRUE
+    }	
+  }
+}
+
+
+
+
+style "toggle-button" = "default"
+{
+
+  fg[PRELIGHT] = "#505050"
+  text[PRELIGHT] = "#505050"
+  fg[ACTIVE] = "#ffffff"
+  fg[SELECTED] = "#ffffff"
+  text[ACTIVE] = "#ffffff"
+  text[SELECTED] = "#ffffff"
+
+  xthickness            			= 2
+  ythickness            			= 4
+  engine "pixmap"
+  {
+
+    image
+    {
+      function			= BOX
+      detail			= "buttondefault"
+      recolorable		= TRUE
+      file				= "Buttons/button-default.png"
+      border			= { 8, 8, 8, 8 }
+      stretch			= TRUE
+    }
+
+
+
+    image
+    {
+      function			= BOX
+      state				= PRELIGHT
+      recolorable		= TRUE
+      file				= "Buttons/button-prelight.png"
+      border			= { 10, 10, 10, 10 }
+      stretch			= TRUE
+    }
+    image
+    {
+      function			= BOX
+      state				= ACTIVE
+      file				= "Buttons/button-pressed.png"
+      border			= { 10, 10, 10, 10 }
+      stretch			= TRUE
+    }	
+    image 
+   {
+     function			= BOX
+     state				= INSENSITIVE
+     file				= "Buttons/button-insensitive.png"
+     border			= { 10, 10, 10, 10 }
+     stretch			= TRUE
+    }
+    image 
+    {
+      function			= BOX
+      file				= "Buttons/toggle-button-normal.png"		
+      border			= { 10, 10, 10, 10 }
+      stretch			= TRUE
+    }	
+  }
+}
+
+
+class "GtkButton"          				style "button"
+class "GtkToggleButton"          			style "button"

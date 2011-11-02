@@ -1,0 +1,32 @@
+################# Handle Boxes ###################
+style "handlebox"	= "default"
+{
+  
+
+engine "pixmap"
+  {
+    
+image
+    {
+      	function			= HANDLE
+      	recolorable		= TRUE	
+	overlay_file		= "Handlebox/handle-vertical.png"
+      	overlay_stretch	= FALSE
+      	orientation		= VERTICAL
+    }
+  
+image
+    {
+      	function			= HANDLE
+      	recolorable		= TRUE
+ 	overlay_file		= "Handlebox/handle-horizontal.png"
+      	overlay_stretch 	= FALSE
+      	orientation		= HORIZONTAL
+    }
+  }
+}
+
+class "GtkPaned"      	style "handlebox"
+class "GtkHandleBox"    	style "handlebox"
+class "*Handle*"    	style "handlebox"
+

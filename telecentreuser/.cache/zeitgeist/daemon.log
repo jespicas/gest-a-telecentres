@@ -1,0 +1,27 @@
+[2011-09-19 13:47:51,833] - DEBUG - singleton - Checking for another running instance...
+[2011-09-19 13:47:51,844] - INFO - zeitgeist.sql - Using database: /home/telecentreuser/.local/share/zeitgeist/activity.sqlite
+[2011-09-19 13:47:51,851] - DEBUG - zeitgeist.sql - Core schema is good. DB loaded in 6.79612159729ms
+[2011-09-19 13:47:51,851] - DEBUG - zeitgeist.extension - Searching for system extensions in: /usr/share/zeitgeist/_zeitgeist/engine/extensions
+[2011-09-19 13:47:51,851] - DEBUG - zeitgeist.extension - Searching for user extensions in: /home/telecentreuser/.local/share/zeitgeist/extensions
+[2011-09-19 13:47:51,910] - DEBUG - zeitgeist.extension - No extra extensions
+[2011-09-19 13:47:51,911] - DEBUG - zeitgeist.extension - Found extensions: [<class '_zeitgeist.engine.extensions.blacklist.Blacklist'>, <class '_zeitgeist.engine.extensions.fts.SearchEngineExtension'>, <class '_zeitgeist.engine.extensions.datasource_registry.DataSourceRegistry'>]
+[2011-09-19 13:47:51,911] - DEBUG - zeitgeist.extension - Loading extension 'Blacklist'
+[2011-09-19 13:47:51,911] - DEBUG - zeitgeist.blacklist - No existing blacklist config found
+[2011-09-19 13:47:51,911] - DEBUG - zeitgeist.extension - Loading extension 'SearchEngineExtension'
+[2011-09-19 13:47:51,911] - DEBUG - zeitgeist.fts - Opening full text index: /home/telecentreuser/.local/share/zeitgeist/fts.index
+[2011-09-19 13:47:51,916] - DEBUG - zeitgeist.extension - Loading extension 'DataSourceRegistry'
+[2011-09-19 13:47:51,917] - DEBUG - zeitgeist.datasource_registry - Loaded data-source data from /home/telecentreuser/.local/share/zeitgeist/datasources.pickle
+[2011-09-19 13:47:51,918] - INFO - root - Trying to start the datahub
+[2011-09-19 13:47:51,935] - DEBUG - root - Running datahub (/usr/bin/zeitgeist-datahub) with PID=14777
+[2011-09-19 13:47:51,935] - INFO - root - Starting Zeitgeist service...
+[2011-09-19 13:48:03,290] - DEBUG - zeitgeist.fts - Indexing 'application://gedit.desktop'
+[2011-09-19 13:48:03,529] - DEBUG - zeitgeist.engine - Inserted 1 events out of 1 in 0.239995s
+[2011-09-19 13:48:03,813] - DEBUG - zeitgeist.fts - Committing FTS index
+[2011-09-19 13:48:04,289] - DEBUG - zeitgeist.fts - Indexing 'file:///home/telecentreuser/Escriptori/scre'
+[2011-09-19 13:48:04,292] - DEBUG - zeitgeist.fts - Indexing 'file:///home/telecentreuser/Escriptori/scre'
+[2011-09-19 13:48:04,296] - DEBUG - zeitgeist.fts - Indexing 'file:///home/telecentreuser/Escriptori/scre'
+[2011-09-19 13:48:04,450] - DEBUG - zeitgeist.engine - Inserted 3 events out of 3 in 0.164146s
+[2011-09-19 13:48:04,797] - DEBUG - zeitgeist.fts - Committing FTS index
+[2011-09-19 13:48:08,633] - DEBUG - zeitgeist.fts - Indexing 'file:///home/telecentreuser/Escriptori/scre'
+[2011-09-19 13:48:08,811] - DEBUG - zeitgeist.engine - Inserted 1 events out of 1 in 0.182139s
+[2011-09-19 13:48:09,134] - DEBUG - zeitgeist.fts - Committing FTS index

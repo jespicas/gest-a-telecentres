@@ -1,0 +1,2 @@
+#!/bin/sh
+python -u /home/telecentreuser/.screenlets/ControlTemps/ControlTempsScreenlet.py &

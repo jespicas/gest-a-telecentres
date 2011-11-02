@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<compiz_session id="10f9b87b4331f7598b131124224027280900000058690032">
+  <window id="10f9b87b4331f7598b131124224027355200000058690034" title="x-nautilus-desktop" class="Nautilus" name="desktop_window" command="nautilus">
+    <geometry x="0" y="0" width="1024" height="768"/>
+  </window>
+  <window id="10f9b87b4331f7598b131124240427150800000058690038" title="screenlet (~) - gedit" class="Gedit" name="gedit" role="gedit-window-1311242404-567394-0-testTelestany" command="gedit">
+    <geometry x="0" y="24" width="650" height="500"/>
+    <workspace index="0"/>
+  </window>
+  <window id="10f9b87b4331f7598b131124224027355200000058690034" title="telecentreuser" class="Nautilus" name="nautilus" command="nautilus">
+    <geometry x="178" y="164" width="800" height="550"/>
+    <workspace index="0"/>
+  </window>
+</compiz_session>

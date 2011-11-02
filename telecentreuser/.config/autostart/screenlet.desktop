@@ -1,0 +1,11 @@
+
+[Desktop Entry]
+Type=Application
+Exec=/home/telecentreuser/.config/screenlet
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[ca_ES]=screenlet ControlTemps
+Name=screenlet ControlTemps
+Comment[ca_ES]=
+Comment=

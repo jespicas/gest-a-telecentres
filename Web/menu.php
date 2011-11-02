@@ -1,0 +1,1 @@
+<div class="fonsMenuPpal"><a  href="viewlogs.php">Veure Logs </a> | <a href="membersonly.php"> Gestiò Usuaris </a> | <a href="horaris.php">Horaris</a> | <a href="logout.php">Sortir </a></div><br/>

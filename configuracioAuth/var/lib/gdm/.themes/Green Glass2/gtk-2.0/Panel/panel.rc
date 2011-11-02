@@ -1,0 +1,135 @@
+style "panel-background"
+{
+
+
+  xthickness            			= 2
+  ythickness            			= 1
+
+  fg[NORMAL]		= "#616161"
+  fg[PRELIGHT]		= "#616161"
+  fg[ACTIVE]		= "#f3f3f3"
+  fg[SELECTED]		= "#ffffff"
+  fg[INSENSITIVE]	= "#656565"
+
+  text[NORMAL]		= "#616161"
+  text[PRELIGHT]		= "#616161"
+  text[ACTIVE]		= "#ffffff"
+  text[SELECTED]	= "#616161"
+  text[INSENSITIVE]	= "#656565"
+
+
+  bg_pixmap[NORMAL]		= "Panel/panel-background.png"
+  bg_pixmap[INSENSITIVE]		= "<parent>"
+  bg_pixmap[PRELIGHT]		= "<parent>"
+  bg_pixmap[SELECTED]		= "<parent>"
+  bg_pixmap[ACTIVE]			= "<parent>"
+}
+
+##################### PANEL BUTTONS ###############################
+
+
+style "panel-buttons" = "default"
+{
+
+
+
+
+
+  xthickness	= 2
+  ythickness	= 1
+
+  GtkWidget::focus_padding = 0
+
+	engine "pixmap" {
+
+		image
+		{
+			function		= BOX
+			recolorable	= TRUE
+			state		= NORMAL
+			file			= "Panel/panelbutton-normal.png"
+			border		= { 10,10,10,10 }
+			stretch		= TRUE
+		}
+
+		image
+		{
+			function		= BOX
+			recolorable	= TRUE
+			state		= PRELIGHT
+			file			= "Panel/panelbutton-prelight.png"
+			border		= { 10,10,10,10 }
+			stretch		= TRUE
+		}
+
+		image
+		{
+			function		= BOX
+			recolorable	= TRUE
+			shadow		= OUT
+			state		= PRELIGHT
+			file			= "Panel/panelbutton-prelight.png"
+			border		= { 10,10,10,10 }
+			stretch		= TRUE
+
+		}
+
+		image
+		{
+			function		= BOX
+			recolorable	= TRUE
+			shadow		= IN
+			state		= PRELIGHT
+			file			= "Panel/panelbutton-prelight.png"
+			border		= { 10,10,10,10 }
+			stretch		= TRUE
+
+		}
+
+		image
+		{
+			function		= BOX
+			recolorable	= TRUE
+			state		= ACTIVE
+			file			= "Panel/panelbutton-pressed.png"
+			border		= { 10,10,10,10 }
+			stretch		= TRUE
+		}
+
+		image
+		{
+			function		= BOX
+			recolorable	= TRUE
+			state		= INSENSITIVE
+			file			= "Panel/panelbutton-insensitive.png"
+			border		= { 10,10,10,10 }
+			stretch		= TRUE
+		}  
+
+	}
+
+}
+
+#widget "*PanelWidget*" style "panel-background"
+#widget "*PanelApplet*" style "panel-background"
+
+class "*Panel*" style "panel-background"
+
+#widget_class "*notif*" style "panel-background"
+#widget_class "*Notif*" style "panel-background"
+#widget_class "*Tray*" style "panel-background"
+#widget_class "*tray*" style "panel-background"
+#class "*notif*" style "panel-background"
+#class "*Notif*" style "panel-background"
+
+class "*Tray*" style "panel-background"
+class "*tray*" style "panel-background"
+widget_class "*BonoboDockItem" style "panel-background"
+class "*BonoboDockItem" style "panel-background"
+widget_class "*Panel*GtkToggleButton" style "panel-buttons"
+widget_class "*Panel*Button" style "panel-buttons"
+widget_class "*Panel*GtkButton"		style "panel-buttons"
+class "*netstatus*"		style "panel-background"
+
+widget "*Xfce*Panel*" style "panel-background"
+

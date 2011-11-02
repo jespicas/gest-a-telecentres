@@ -1,0 +1,231 @@
+####################### Option Menu #################
+
+style "optionmenu"	= "default"
+{
+  xthickness            		= 4
+  ythickness            		= 1
+
+  fg[PRELIGHT] = "#f3f3f3"
+  text[PRELIGHT] = "#f3f3f3"
+
+  engine "pixmap"
+  	{
+
+image
+    {
+      function			= BOX
+      state				= NORMAL
+      recolorable			= TRUE
+      file				= "ComboBox/combo-button-normal.png"
+      border				= { 5, 19, 5, 8}
+      stretch			= TRUE
+    }
+
+image
+    {
+      function			= BOX
+      recolorable			= TRUE
+      state				= PRELIGHT
+      file				= "ComboBox/combo-button-prelight.png"
+      border				= { 6, 19, 6, 8}
+      stretch			= TRUE
+    }
+
+image
+    {
+      function			= BOX
+      recolorable			= TRUE
+      state				= ACTIVE
+      file				= "ComboBox/combo-button-prelight.png"
+      border				= { 6, 19, 6, 8}
+      stretch			= TRUE
+    }
+    
+image
+    {
+      function			= BOX
+      recolorable			= TRUE
+      state				= INSENSITIVE
+      file				= "ComboBox/combo-button-insensitive.png"
+      border				= { 6, 19, 6, 8}
+      stretch			= TRUE
+       }
+
+
+    image
+    {
+      function			= TAB
+      recolorable			= TRUE
+      overlay_file			= "ComboBox/null.png"
+      overlay_stretch		= FALSE
+    }
+  }
+}
+
+############## Combo ######################
+
+style "combobox"		= "default"
+{
+
+  xthickness            		= 0
+  ythickness            		= 1
+
+ engine "pixmap"
+  	{
+
+
+image
+    {
+      function			= BOX
+      recolorable			= TRUE
+      state				= NORMAL
+      file				= "ComboBox/combo-button-normal.png"
+      border				= { 6, 19, 6, 8}
+      stretch			= TRUE
+    }   
+image
+    {
+      function			= BOX
+      recolorable			= TRUE
+      state				= PRELIGHT
+      file				= "ComboBox/combo-button-prelight.png"
+      border				= { 6, 19, 6, 8}
+      stretch			= TRUE
+    }
+image
+    {
+
+      recolorable			= TRUE
+      state				= ACTIVE
+      file				= "ComboBox/combo-button-prelight.png"
+      border				= { 6, 19, 6, 8}
+      stretch			= TRUE
+    }
+image
+    {
+      function			= BOX
+      recolorable			= TRUE
+      state				= SELECTED
+      file				= "ComboBox/combo-button-prelight.png"
+      border				= { 6, 19, 6, 8}
+      stretch			= TRUE
+    }
+image
+    {
+      function			= BOX
+      recolorable			= TRUE
+      state				= INSENSITIVE
+      file				= "ComboBox/combo-button-insensitive.png"
+      border				= { 6, 19, 6, 8}
+      stretch			= TRUE
+    }
+
+
+    image
+    {
+      function			= ARROW
+      recolorable			= TRUE
+      file				= "ComboBox/null.png"
+      overlay_file			= "ComboBox/null.png"
+      overlay_stretch		= FALSE
+    }
+
+image
+    {
+      function			= VLINE
+      recolorable			= TRUE
+      file				= "ComboBox/null.png"
+      stretch			= TRUE
+    } 
+  }
+}
+
+
+############## No-Combo ######################
+
+style "combobox"		= "default"
+{
+
+  xthickness            		= 0
+  ythickness            		= 1
+
+ engine "pixmap"
+  	{
+
+
+image
+    {
+      function			= BOX
+      recolorable			= TRUE
+      state				= NORMAL
+      file				= "ComboBox/null.png"
+      border				= { 6, 19, 6, 8}
+      stretch			= TRUE
+    }   
+image
+    {
+      function			= BOX
+      recolorable			= TRUE
+      state				= PRELIGHT
+      file				= "ComboBox/null.png"
+      border				= { 6, 19, 6, 8}
+      stretch			= TRUE
+    }
+image
+    {
+
+      recolorable			= TRUE
+      state				= ACTIVE
+      file				= "ComboBox/null.png"
+      border				= { 6, 19, 6, 8}
+      stretch			= TRUE
+    }
+image
+    {
+      function			= BOX
+      recolorable			= TRUE
+      state				= SELECTED
+      file				= "ComboBox/null.png"
+      border				= { 6, 19, 6, 8}
+      stretch			= TRUE
+    }
+image
+    {
+      function			= BOX
+      recolorable			= TRUE
+      state				= INSENSITIVE
+      file				= "ComboBox/null.png"
+      border				= { 6, 19, 6, 8}
+      stretch			= TRUE
+    }
+
+
+    image
+    {
+      function			= ARROW
+      recolorable			= TRUE
+      file				= "ComboBox/null.png"
+      overlay_file			= "ComboBox/null.png"
+      overlay_stretch		= FALSE
+    }
+
+image
+    {
+      function			= VLINE
+      recolorable			= TRUE
+      file				= "ComboBox/null.png"
+      stretch			= TRUE
+    } 
+  }
+}
+
+class "GtkOptionMenu"      			style "optionmenu"
+widget_class "ComboBox" 			style "combobox"
+class "GtkCombo"      				style "combobox"
+widget_class "*Combo*"				style "combobox"
+class "GtkCombo"      				style "combobox"
+widget_class "*Combo*"				style "combobox"
+#class "*Font*"      					style "combobox"
+class "GtkOption*"					style "combobox"
+
+
